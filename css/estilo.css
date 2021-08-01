@@ -1,0 +1,52 @@
+body{
+animation: gradient 10s ease infinite;
+background: linear-gradient(-45deg, #ee7752, #d40000, #23a6d5, #23d5ab) no-repeat;
+background-attachment: fixed;
+}
+#pagina{
+ text-align: center;
+ background-color: rgb(255, 255, 255);
+}
+#foto{
+width: 400px;
+height: 400px;
+border-radius: 50%;
+}
+#contatos{
+ background-color: rgb(255, 255, 255);
+width: 130px;
+}
+#git{
+ width: 150px;
+ height: 150px;
+}
+#gmail{
+ width: 150px;
+ height: 150px;
+}
+#linkedin{
+ width: 150px;
+ height: 150px;
+}
+#insta{
+ width: 150px;
+ height: 150px;
+}#rodapé{
+  bottom : 2;
+padding-bottom: 0;
+margin: auto;
+width: 50%;
+text-align: center;
+background-color: white;
+}
+@keyframes gradient{
+0%{
+    background-position: 0 50%;
+  }
+50%{
+    background-position: 100% 50%;
+  }
+100%{
+    background-position: 0 50%;
+  }
+}
